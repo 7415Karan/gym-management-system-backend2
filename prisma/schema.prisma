@@ -14,7 +14,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 // Update the DATABASE_URL to point to the db container
-DATABASE_URL = "postgres://postgres:admin:5432/gymdb"
+DATABASE_URL = "postgres://postgres:admin:51214/gymdb"
 
 
 model User {
