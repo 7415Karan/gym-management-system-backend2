@@ -15,3 +15,6 @@ services:
 
 volumes:
   postgres-data:
+
+environment:
+  -DATABASE_URL=postgresql://postgres:admin:51214@db:5432/gymdb # This is the database connection string used by Prisma
