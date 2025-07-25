@@ -14,10 +14,10 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-
+DATABASE_URL=postgresql://postgres:admin:51214@db:5432/gymdb
 
 model User {
-  id       String  @id @default(cuid())
+  id       String  @id @default(cuid())papa
   email    String  @unique
   password String?
   role     Role
