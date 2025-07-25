@@ -14,7 +14,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-DATABASE_URL = postgres://postgres:admin:5432/gymdb
+
 
 model User {
   id       String  @id @default(cuid())
